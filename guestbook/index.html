@@ -147,7 +147,7 @@
   </li>
         <li class="menu-item menu-item-guestbook">
 
-    <a href="/guestbook/" rel="section"><i class="comment fa-fw"></i>留言板</a>
+    <a href="/guestbook/" rel="section"><i class="fas fa-comment fa-fw"></i>留言板</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -241,6 +241,7 @@
 
           </div>
           
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -416,6 +417,26 @@
   
 
   
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'dcb26777b116630265cc',
+      clientSecret: 'f39a8a91ad417eef242e90756d0bf01328f0a381',
+      repo        : 'xiakong24.github.io',
+      owner       : 'xiakong24',
+      admin       : [''],
+      id          : '1d77f9ab57d5b9d8daf8c62618619146',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
