@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/guestbook/index.html</loc>
+    <loc>https://xiakong24.github.io/posts/b8d83faa/</loc>
     
-    <lastmod>2021-06-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/posts/b8d83faa/</loc>
-    
-    <lastmod>2021-06-27</lastmod>
+    <lastmod>2021-06-28</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/posts/40febe0c/</loc>
+    <loc>https://xiakong24.github.io/tags/index.html</loc>
     
-    <lastmod>2021-06-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2021-06-27</lastmod>
+    <lastmod>2021-06-28</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://xiakong24.github.io/guestbook/index.html</loc>
+    
+    <lastmod>2021-06-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/categories/index.html</loc>
+    
+    <lastmod>2021-06-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/posts/40febe0c/</loc>
     
     <lastmod>2021-06-27</lastmod>
     
@@ -38,7 +38,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://xiakong24.github.io/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -46,42 +46,42 @@
 
   
   <url>
-    <loc>http://example.com/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://xiakong24.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Lie%E7%BE%A4/</loc>
+    <loc>https://xiakong24.github.io/tags/Lie%E7%BE%A4/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://xiakong24.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/MarkDown/</loc>
+    <loc>https://xiakong24.github.io/tags/MarkDown/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://xiakong24.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/hexo/</loc>
+    <loc>https://xiakong24.github.io/tags/hexo/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -90,14 +90,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>https://xiakong24.github.io/categories/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>https://xiakong24.github.io/categories/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
