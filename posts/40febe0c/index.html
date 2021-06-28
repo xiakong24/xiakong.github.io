@@ -17,18 +17,18 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"xiakong24.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"xiakong24.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Lie群学习笔记 利用 Lie 群求解微分方程的5步法        步骤 操作     1 计算微分方程的无穷小生成元 \(V^{(k)}\)   2 如果\(r&gt;2\)，则需要确定其子代数 \(\mathcal{L_2}\subset\mathcal{L_r}\)。如果\(r&lt;2\)，微分方程不能利用 Lie 群进行简化求解（\(r&#x3D;2\)">
+  <meta name="description" content="利用 Lie 群求解微分方程的5步法        步骤 操作     1 计算微分方程的无穷小生成元 \(V^{(k)}\)   2 如果\(r&gt;2\)，则需要确定其子代数 \(\mathcal{L_2}\subset\mathcal{L_r}\)。如果\(r&lt;2\)，微分方程不能利用 Lie 群进行简化求解（\(r&#x3D;2\) 的情况总是可解的）">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Lie群学习笔记">
 <meta property="og:url" content="https://xiakong24.github.io/posts/40febe0c/index.html">
 <meta property="og:site_name" content="Hu Lei&#39; Blog">
-<meta property="og:description" content="Lie群学习笔记 利用 Lie 群求解微分方程的5步法        步骤 操作     1 计算微分方程的无穷小生成元 \(V^{(k)}\)   2 如果\(r&gt;2\)，则需要确定其子代数 \(\mathcal{L_2}\subset\mathcal{L_r}\)。如果\(r&lt;2\)，微分方程不能利用 Lie 群进行简化求解（\(r&#x3D;2\)">
+<meta property="og:description" content="利用 Lie 群求解微分方程的5步法        步骤 操作     1 计算微分方程的无穷小生成元 \(V^{(k)}\)   2 如果\(r&gt;2\)，则需要确定其子代数 \(\mathcal{L_2}\subset\mathcal{L_r}\)。如果\(r&lt;2\)，微分方程不能利用 Lie 群进行简化求解（\(r&#x3D;2\) 的情况总是可解的）">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-06-26T12:46:56.000Z">
-<meta property="article:modified_time" content="2021-06-27T14:13:31.261Z">
+<meta property="article:modified_time" content="2021-06-28T07:57:26.946Z">
 <meta property="article:author" content="Hu Lei">
 <meta property="article:tag" content="学习">
 <meta property="article:tag" content="Lie群">
@@ -125,17 +125,17 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-history fa-fw"></i>时间轴</a>
+    <a href="/archives/" rel="section"><i class="fa fa-history fa-fw"></i>时间轴<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">6</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-guestbook">
@@ -229,7 +229,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-06-27 22:13:31" itemprop="dateModified" datetime="2021-06-27T22:13:31+08:00">2021-06-27</time>
+                <time title="修改时间：2021-06-28 15:57:26" itemprop="dateModified" datetime="2021-06-28T15:57:26+08:00">2021-06-28</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -273,8 +273,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="lie群学习笔记">Lie群学习笔记</h1>
-<p><strong>利用 Lie 群求解微分方程的5步法</strong></p>
+        <p><strong>利用 Lie 群求解微分方程的5步法</strong></p>
 <table>
 <colgroup>
 <col style="width: 6%" />
@@ -310,9 +309,9 @@
 </tbody>
 </table>
 <span id="more"></span>
-<h2 id="群">群</h2>
+<h1 id="群">群</h1>
 <p>​ 数学中，<strong>群</strong>是一种代数结构，由一个集合和一个二元运算组成。</p>
-<h3 id="群公理的4个基本要求"><strong>群公理的4个基本要求</strong></h3>
+<h2 id="群公理的4个基本要求"><strong>群公理的4个基本要求</strong></h2>
 <ol type="1">
 <li>封闭性：对于所有集合<span class="math inline">\(G\)</span>中的<span class="math inline">\(a\)</span>， <span class="math inline">\(b\)</span>，运算<span class="math inline">\(a\cdot b\)</span> 的结果也在<span class="math inline">\(G\)</span>中。</li>
 <li>结合律：对于所有集合<span class="math inline">\(G\)</span>中的<span class="math inline">\(a\)</span>， <span class="math inline">\(b\)</span> 和<span class="math inline">\(c\)</span>，等式<span class="math inline">\((a\cdot b)\cdot c=a\cdot (b\cdot c)\)</span> 成立（注意排序）。</li>
@@ -320,7 +319,7 @@
 <li>逆元：对于每个<span class="math inline">\(G\)</span>中的<span class="math inline">\(a\)</span>，存在<span class="math inline">\(G\)</span>中的一个元素<span class="math inline">\(b\)</span> 使得<span class="math inline">\(a\cdot b= b \cdot a=e\)</span>，这里<span class="math inline">\(e\)</span>是单位元。</li>
 </ol>
 <p><strong>注意：</strong> 交换律并不总成立，其中交换律总成立的群被称为Abel 群/交换群。</p>
-<h3 id="变换群"><strong>变换群</strong></h3>
+<h2 id="变换群"><strong>变换群</strong></h2>
 <p>​ <span class="math inline">\(n\)</span>维线性空间<span class="math inline">\(V\)</span>内的线性变换，将元素<span class="math inline">\(\boldsymbol{a}=(a_1,a_2,\cdots,a_n)\in V\)</span>利用变换<span class="math inline">\(X\)</span>到另个一元素 <span class="math inline">\(\boldsymbol{b}=(b_1,b_2,\cdots,b_n)=\boldsymbol X：\boldsymbol{a}\in V\)</span>，这种变换<span class="math inline">\(X\)</span>的集合<span class="math inline">\(G\)</span>构成了群：</p>
 <ol type="1">
 <li><p>封闭性：<span class="math inline">\(\boldsymbol X_1\in G\)</span>， 且<span class="math inline">\(\boldsymbol X_2\in G\)</span> ，则有<span class="math inline">\(\boldsymbol X_1\boldsymbol X_2\in G\)</span>。</p></li>
@@ -329,8 +328,8 @@
 <li><p>逆元：<span class="math inline">\(\boldsymbol X_i\in G\)</span>的逆变换<span class="math inline">\(\boldsymbol X_i&#39;\in G\)</span> 满足<span class="math inline">\(\boldsymbol X_i\boldsymbol X_i&#39;:\boldsymbol{a}=\boldsymbol X_e:\boldsymbol{a}\)</span>。</p>
 <p>此时，称<span class="math inline">\(G\)</span>为<span class="math inline">\(V\)</span>上的变换群。(此时V不在局限于线性空间)</p></li>
 </ol>
-<h2 id="单参数-lie-群和-lie-级数">单参数 Lie 群和 Lie 级数</h2>
-<h3 id="无限连续群"><strong>无限连续群</strong></h3>
+<h1 id="单参数-lie-群和-lie-级数">单参数 Lie 群和 Lie 级数</h1>
+<h2 id="无限连续群"><strong>无限连续群</strong></h2>
 <p>​ 若变换可以用一个参数来表征，并且参数可连续变化，这种变化的全体组成一个<strong>无限连续群</strong>，定义如下：</p>
 <p>​ 设 <span class="math inline">\(\boldsymbol{x}=(x_1,x_2,\cdots,x_n)\in D\subset \mathbb{R}^n\)</span>， <span class="math inline">\(\epsilon \in S \subset \mathbb{R}\)</span> 则称满足下列条件的变换 <span class="math display">\[
 \boldsymbol{x^*}=\boldsymbol X(\boldsymbol{x};\epsilon)\in D\label{bhq}\tag{1}
@@ -386,9 +385,9 @@
 <li>投影变换群：<span class="math inline">\(\hat{x}=x/(1-\epsilon x),\hat{y}=y/(1-\epsilon y)\)</span></li>
 </ul></li>
 </ol>
-<h3 id="无穷小生成元"><strong>无穷小生成元</strong></h3>
-<h4 id="无穷小">无穷小</h4>
-<h5 id="无穷小变换">无穷小变换</h5>
+<h2 id="无穷小生成元"><strong>无穷小生成元</strong></h2>
+<h3 id="无穷小">无穷小</h3>
+<h4 id="无穷小变换">无穷小变换</h4>
 <p>​ 定义单参数Lie变换群：</p>
 <p><span class="math display">\[
 \boldsymbol x^*=\boldsymbol X(\boldsymbol x,\epsilon)
@@ -397,7 +396,7 @@
 \]</span> ​ 若记 <span class="math display">\[
 \boldsymbol \xi (\boldsymbol x)=\frac{\partial\boldsymbol x}{\partial \epsilon}(\boldsymbol x;\epsilon)\bigg|_{\epsilon=0}
 \]</span> 则称变换 <span class="math inline">\(\boldsymbol x+\epsilon \boldsymbol \xi(\boldsymbol x)\)</span> 为单参数变换群的<strong>无穷小变换</strong>，该级数称为<strong>Lie 级数</strong>，Eq.<span class="math inline">\(~\eqref{wqxxs}\)</span> 为单参数变换群的<strong>无穷小形式</strong>，<span class="math inline">\(\boldsymbol \xi(\boldsymbol x)=(\xi_1(\boldsymbol x),\xi_2(\boldsymbol x),\cdots,\xi_n(\boldsymbol x))\)</span> 称为<span class="math inline">\(\boldsymbol x\)</span> 的<strong>无穷小</strong>。</p>
-<h5 id="等价初值问题">等价初值问题</h5>
+<h4 id="等价初值问题">等价初值问题</h4>
 <p>​ <strong>定理</strong>：存在一个参数化的 <span class="math inline">\(\tau(\epsilon)\)</span> 使得 Lie 变换群 Eq.<span class="math inline">\(~\eqref{wqxxs}\)</span> 等价于如下的形式的一阶微分方程的初值问题： <span class="math display">\[
 \frac{\text{d}x^*}{\text{d}\tau}=\xi(x^*), ~~~~~~~x^*|_{\tau=0}=x\label{czwt}\tag{4}
 \]</span> 其中 <span class="math display">\[
@@ -405,7 +404,7 @@
 \]</span> 特别地，当 <span class="math inline">\(f(a,b)=a+b\)</span> 时，初值问题 <span class="math inline">\(\eqref{czwt}\)</span> 转化为 <span class="math display">\[
 \frac{\text{d}x^*}{\text{d}\epsilon}=\xi(x^*),~~~~~~~x^*|_{\epsilon=0}=x
 \]</span></p>
-<h4 id="无穷小生成子">无穷小生成子</h4>
+<h3 id="无穷小生成子">无穷小生成子</h3>
 <p>​ <strong>定义</strong>：算子 <span class="math display">\[
 V=V(\boldsymbol x)=\boldsymbol \xi(\boldsymbol x)\cdot \nabla=\sum_{i=1}^{n}\xi_i(\boldsymbol x)\frac{\partial}{\partial x_i}
 \]</span> 称为单参数 Lie 变换群 <span class="math inline">\(\boldsymbol x^*=\boldsymbol X(\boldsymbol x;\epsilon)\)</span> 的<strong>无穷小生成子（无穷小生成元）</strong>。(包含了变换群的全部信息)</p>
@@ -422,10 +421,10 @@ F(\boldsymbol x^*)=F(\boldsymbol x)
 \]</span> 则称 <span class="math inline">\(F(\boldsymbol x)\)</span>为 Lie 变换群 Eq.<span class="math inline">\(~\eqref{wqxxs}\)</span> 的<strong>不变函数</strong>。当且仅当 <span class="math display">\[
 VF(\boldsymbol x)=0
 \]</span> 对于任意 <span class="math inline">\(\boldsymbol x \in D\)</span> 成立。若 <span class="math inline">\(F(\boldsymbol x)=0\)</span>， 则其也称为变换群的不变曲面。</p>
-<h3 id="无穷小的延拓变换"><strong>无穷小的延拓变换</strong></h3>
+<h2 id="无穷小的延拓变换"><strong>无穷小的延拓变换</strong></h2>
 <p>​ <strong>目的</strong>：将代数方程不变群的一些结论拓展到微分方程的不变群。</p>
 <p>​ <strong>思路</strong>：将自变量和因变量空间进一步延拓，在延拓空间中，<strong>自变量</strong>、<strong>因变量</strong>以及因变量对自变量的各阶<strong>导数</strong>都看作空间元素。</p>
-<h4 id="单参数-lie-变换群的延拓">单参数 Lie 变换群的延拓</h4>
+<h3 id="单参数-lie-变换群的延拓">单参数 Lie 变换群的延拓</h3>
 <p>​ <strong>例如</strong>：</p>
 <p>​ <span class="math inline">\(k\)</span>阶常微分方程的无穷小变换<span class="math inline">\(y=y(x)\)</span>： <span class="math display">\[
 x^*=X(x,y,\epsilon),~~~~~~y^*=Y(x,y,\epsilon)\label{kjcwf}\tag{6}
@@ -446,7 +445,7 @@ y_i^*= Y_i(x,y,y_1,y_2,\ldots,y_i,\epsilon)=\frac{D  Y_{i-1}}{D X}\label{yi}
 \]</span> 其中 <span class="math inline">\(D\)</span> 为<strong>全微分算子/全导数算子</strong> <span class="math display">\[
 D=\frac{\partial}{\partial x}+y_1\frac{\partial}{\partial y}+\cdots+y_i\frac{\partial}{\partial y_{i-1}}
 \]</span></p>
-<h4 id="无穷小生成子的延拓">无穷小生成子的延拓</h4>
+<h3 id="无穷小生成子的延拓">无穷小生成子的延拓</h3>
 <p>​ Lie 变换群<span class="math inline">\(~\eqref{kjcwf}\)</span> 的无穷小生成子为 <span class="math display">\[
 V=\xi(x,y)\frac{\partial}{\partial x}+\eta(x,y)\frac{\partial}{\partial y}
 \]</span> 考虑对于 <span class="math inline">\(y_i^*\)</span> 在 <span class="math inline">\(\epsilon=0\)</span> 附近展开得 <span class="math display">\[
@@ -468,7 +467,7 @@ V^{(k)}=V+\sum_{i=1}^{k}\eta^{(i)}(x,y,y_1,\ldots,y_i)\frac{\partial }{\partial 
 \eta^{(2)}&amp;=\eta_{xx}+(2\eta_{xy}-\xi_{xx})y_1+(\eta_{yy}-2\xi_{xy})y_1^2-\xi_{yy}y_1^3+(\eta_y-2\xi_x)y_2-3\xi_yy_1y_2
 \end{aligned}
 \]</span></p>
-<h3 id="微分方程的不变性">微分方程的不变性</h3>
+<h2 id="微分方程的不变性">微分方程的不变性</h2>
 <p>​ <strong>决定方程组</strong></p>
 <p>​ 微分方程的对称群将方程的一个解映射到方程的另一个解，微分方程的不变性可以用来导出其对称群所需满足的充分必要条件。该组条件称为对称群的<strong>决定方程组</strong>。</p>
 <p>​ <strong>定理</strong>：</p>
@@ -479,8 +478,8 @@ V^{(n)} G(x,y,y_1,\ldots,y_n)\bigg|_{G(x)=0}=0
 \]</span> ​ 此时，若采用 <span class="math inline">\(G(x,y,y_1,\ldots,y_n)=y_n-g(x,y,y_1,\ldots,y_{n-1})\)</span>， 则可以求得 <span class="math display">\[
 \eta^{(n)}(x,y,y_1,\ldots,y_n)=\xi \frac{\partial g}{\partial x}+\eta \frac{\partial g}{\partial y}+\cdots+\eta^{(n-1)} \frac{\partial g}{\partial y_{n-1}}
 \]</span> 考虑 <span class="math inline">\(y_1,\ldots,y_{n-1}\)</span> 的任意性，可以分别提取出其各项系数，即可得到一组由 <span class="math inline">\(n-1\)</span> 个线性偏微分方程组成的方程组，变量为 <span class="math inline">\(\eta\)</span> 和 <span class="math inline">\(\xi\)</span>。该方程组称为对称群的<strong>决定方程组</strong>。</p>
-<h2 id="appendix">Appendix</h2>
-<h3 id="变换的证明">变换的证明</h3>
+<h1 id="appendix">Appendix</h1>
+<h2 id="变换的证明">变换的证明</h2>
 <p>​ <strong>引理</strong>：<span class="math inline">\(X(\boldsymbol x;\epsilon+\Delta \epsilon)=X(X(\boldsymbol x;\epsilon);f(\epsilon^{-1},\epsilon+\Delta \epsilon))\)</span></p>
 <p>​ <strong>证明</strong>：</p>
 <ol type="1">
@@ -500,7 +499,7 @@ X(x;\epsilon+\Delta \epsilon)&amp;=X(x^*;f(\epsilon^{-1},\epsilon+\Delta \epsilo
 \frac{\text{d}x^*}{\text{d}\epsilon}=\theta(\epsilon) \xi(x^*),~~~~~~~x^*|_{\epsilon=0}=x
 \]</span> ​ 采用变换<span class="math inline">\(~\eqref{bh}\)</span>，则可以化为初值问题<span class="math inline">\(~\eqref{czwt}\)</span>。</p>
 <p>​ <strong>结论</strong>：以上，<span class="math inline">\(\tau(\epsilon)\)</span> 具有任意性，对于任何<span class="math inline">\(f\)</span>，总存在相应的<span class="math inline">\(\tau(\epsilon)\)</span>使得 <span class="math inline">\(f\)</span> 再参数化为<span class="math inline">\(f(a,b)=a+b\)</span>， 因此，不失一般性，假设<span class="math inline">\(f(a,b)=a+b\)</span>，<span class="math inline">\(\theta(\epsilon)=1\)</span>.</p>
-<h2 id="references">References</h2>
+<h1 id="references">References</h1>
 <ol type="1">
 <li>郭玉翠，《非线性偏微分方程引论》，清化大学出版社，（2008）。</li>
 <li>孙博华，《量纲分析与 Lie 群》，高等教育出版社，（2016）。</li>
@@ -607,7 +606,7 @@ X(x;\epsilon+\Delta \epsilon)&amp;=X(x^*;f(\epsilon^{-1},\epsilon+\Delta \epsilo
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#lie%E7%BE%A4%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"><span class="nav-number">1.</span> <span class="nav-text">Lie群学习笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BE%A4"><span class="nav-number">1.1.</span> <span class="nav-text">群</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BE%A4%E5%85%AC%E7%90%86%E7%9A%844%E4%B8%AA%E5%9F%BA%E6%9C%AC%E8%A6%81%E6%B1%82"><span class="nav-number">1.1.1.</span> <span class="nav-text">群公理的4个基本要求</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%98%E6%8D%A2%E7%BE%A4"><span class="nav-number">1.1.2.</span> <span class="nav-text">变换群</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%95%E5%8F%82%E6%95%B0-lie-%E7%BE%A4%E5%92%8C-lie-%E7%BA%A7%E6%95%B0"><span class="nav-number">1.2.</span> <span class="nav-text">单参数 Lie 群和 Lie 级数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E9%99%90%E8%BF%9E%E7%BB%AD%E7%BE%A4"><span class="nav-number">1.2.1.</span> <span class="nav-text">无限连续群</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%94%9F%E6%88%90%E5%85%83"><span class="nav-number">1.2.2.</span> <span class="nav-text">无穷小生成元</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">无穷小</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E5%8F%98%E6%8D%A2"><span class="nav-number">1.2.2.1.1.</span> <span class="nav-text">无穷小变换</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%AD%89%E4%BB%B7%E5%88%9D%E5%80%BC%E9%97%AE%E9%A2%98"><span class="nav-number">1.2.2.1.2.</span> <span class="nav-text">等价初值问题</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%94%9F%E6%88%90%E5%AD%90"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">无穷小生成子</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%9A%84%E5%BB%B6%E6%8B%93%E5%8F%98%E6%8D%A2"><span class="nav-number">1.2.3.</span> <span class="nav-text">无穷小的延拓变换</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8D%95%E5%8F%82%E6%95%B0-lie-%E5%8F%98%E6%8D%A2%E7%BE%A4%E7%9A%84%E5%BB%B6%E6%8B%93"><span class="nav-number">1.2.3.1.</span> <span class="nav-text">单参数 Lie 变换群的延拓</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%94%9F%E6%88%90%E5%AD%90%E7%9A%84%E5%BB%B6%E6%8B%93"><span class="nav-number">1.2.3.2.</span> <span class="nav-text">无穷小生成子的延拓</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E7%9A%84%E4%B8%8D%E5%8F%98%E6%80%A7"><span class="nav-number">1.2.4.</span> <span class="nav-text">微分方程的不变性</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#appendix"><span class="nav-number">1.3.</span> <span class="nav-text">Appendix</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%98%E6%8D%A2%E7%9A%84%E8%AF%81%E6%98%8E"><span class="nav-number">1.3.1.</span> <span class="nav-text">变换的证明</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#references"><span class="nav-number">1.4.</span> <span class="nav-text">References</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BE%A4"><span class="nav-number">1.</span> <span class="nav-text">群</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BE%A4%E5%85%AC%E7%90%86%E7%9A%844%E4%B8%AA%E5%9F%BA%E6%9C%AC%E8%A6%81%E6%B1%82"><span class="nav-number">1.1.</span> <span class="nav-text">群公理的4个基本要求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%98%E6%8D%A2%E7%BE%A4"><span class="nav-number">1.2.</span> <span class="nav-text">变换群</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%95%E5%8F%82%E6%95%B0-lie-%E7%BE%A4%E5%92%8C-lie-%E7%BA%A7%E6%95%B0"><span class="nav-number">2.</span> <span class="nav-text">单参数 Lie 群和 Lie 级数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A0%E9%99%90%E8%BF%9E%E7%BB%AD%E7%BE%A4"><span class="nav-number">2.1.</span> <span class="nav-text">无限连续群</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%94%9F%E6%88%90%E5%85%83"><span class="nav-number">2.2.</span> <span class="nav-text">无穷小生成元</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F"><span class="nav-number">2.2.1.</span> <span class="nav-text">无穷小</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E5%8F%98%E6%8D%A2"><span class="nav-number">2.2.1.1.</span> <span class="nav-text">无穷小变换</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AD%89%E4%BB%B7%E5%88%9D%E5%80%BC%E9%97%AE%E9%A2%98"><span class="nav-number">2.2.1.2.</span> <span class="nav-text">等价初值问题</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%94%9F%E6%88%90%E5%AD%90"><span class="nav-number">2.2.2.</span> <span class="nav-text">无穷小生成子</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%9A%84%E5%BB%B6%E6%8B%93%E5%8F%98%E6%8D%A2"><span class="nav-number">2.3.</span> <span class="nav-text">无穷小的延拓变换</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%95%E5%8F%82%E6%95%B0-lie-%E5%8F%98%E6%8D%A2%E7%BE%A4%E7%9A%84%E5%BB%B6%E6%8B%93"><span class="nav-number">2.3.1.</span> <span class="nav-text">单参数 Lie 变换群的延拓</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%94%9F%E6%88%90%E5%AD%90%E7%9A%84%E5%BB%B6%E6%8B%93"><span class="nav-number">2.3.2.</span> <span class="nav-text">无穷小生成子的延拓</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E7%9A%84%E4%B8%8D%E5%8F%98%E6%80%A7"><span class="nav-number">2.4.</span> <span class="nav-text">微分方程的不变性</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#appendix"><span class="nav-number">3.</span> <span class="nav-text">Appendix</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%98%E6%8D%A2%E7%9A%84%E8%AF%81%E6%98%8E"><span class="nav-number">3.1.</span> <span class="nav-text">变换的证明</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#references"><span class="nav-number">4.</span> <span class="nav-text">References</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -732,6 +731,7 @@ X(x;\epsilon+\Delta \epsilon)&amp;=X(x^*;f(\epsilon^{-1},\epsilon+\Delta \epsilo
   
   <script color='85,85,85' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
@@ -828,6 +828,16 @@ X(x;\epsilon+\Delta \epsilon)&amp;=X(x^*;f(\epsilon^{-1},\epsilon+\Delta \epsilo
     
 
   
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://xiakong24.github.io/posts/40febe0c/',]
+      });
+      });
+  </script>
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
 
