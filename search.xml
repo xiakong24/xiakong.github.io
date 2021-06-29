@@ -360,6 +360,10 @@ a&amp;\cdot b=\sum_{i=1}^{n}a_ib_i
 <li>参见1中网站进行设置，然后在主题配置文件中作出相应修改即可</li>
 <li>在对应文档的题头加入<code>comments: true</code>开启或<code>comments: false</code>关闭评论</li>
 </ol>
+<h2 id="添加相册">添加相册</h2>
+<p>参考博客<a href="https://blog.dlzhang.com/posts/31/">Hexo NexT 博客增加瀑布流相册页面</a></p>
+<p>文档中插入图片，先上传至对应的文件夹中，然后md文件中地址为<code>photo/images/name.jpg</code>对应引用</p>
+<p><img src="/doc/photo/images/山水.jpg" /></p>
 <h1 id="参考资料">参考资料</h1>
 <ol type="1">
 <li><a href="https://theme-next.js.org/">Hexo-NexT官方教程1</a></li>
