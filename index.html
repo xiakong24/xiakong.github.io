@@ -219,7 +219,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-06-29 14:31:30 / 修改时间：14:52:19" itemprop="dateCreated datePublished" datetime="2021-06-29T14:31:30+08:00">2021-06-29</time>
+              <time title="创建时间：2021-06-29 14:31:30 / 修改时间：20:28:43" itemprop="dateCreated datePublished" datetime="2021-06-29T14:31:30+08:00">2021-06-29</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -237,7 +237,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>480</span>
+              <span>513</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -256,22 +256,16 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="部署">部署</h1>
-<ol type="1">
-<li><p>下载对应 docker 镜像</p>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull dreamacro/clash-premium:latest</span><br></pre></td></tr></table></figure></p></li>
-<li><p>配置 config.yaml 文件</p>
-<p>其实直接把 <code>clash for windows</code> 的配置文件取出来就行，记得把 <code>HTTP Proxy Port</code> 和 <code>SOCKS5 Proxy Port</code> 删除，然后配置 <code>Mixed Port</code> 就行，另外把配置文件中 <code>external-controller</code> 的值改为 <code>0.0.0.0:9090</code>，然后 <code>cd</code> 到 <code>clash</code> 文件夹里面才 ok</p></li>
-<li><p>运行 docker</p>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d --name=clash -v <span class="string">&quot;<span class="variable">$PWD</span>/config.yaml:/root/.config/clash/config.yaml&quot;</span> -p <span class="string">&quot;10808:10808&quot;</span> -p <span class="string">&quot;9090:9090&quot;</span> --restart=unless-stopped dreamacro/clash-premium</span><br></pre></td></tr></table></figure></p></li>
-<li><p>静态控制网页</p>
-<p><a target="_blank" rel="noopener" href="http://yacd.haishan.me/">http://yacd.haishan.me/</a> 填入对应网址：9090</p></li>
-</ol>
-<h1 id="参考">参考</h1>
-<ol type="1">
-<li><a target="_blank" rel="noopener" href="https://www.mokeyjay.com/archives/2787">使用 Docker 搭建图形化 Clash 服务端并添加订阅的操作流程解决方法</a></li>
-</ol>
-
+          <p>Clash for docker， 一个运行在docker上的代理客户端</p>
+<p><img src="pic/clash%E7%9A%84Docker%E9%83%A8%E7%BD%B2/47954055-97e6cb80-dfc0-11e8-991f-230fd40481e5.png" /></p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/posts/d16dfd6d/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
