@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hu Lei&#39; Blog</title>
+  <title>XiaKong&#39; Blog</title>
   
   <subtitle>我的私人博客</subtitle>
   <link href="https://xiakong24.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://xiakong24.github.io/</id>
   
   <author>
-    <name>Hu Lei</name>
+    <name>XiaKong</name>
     
   </author>
   
