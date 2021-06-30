@@ -246,37 +246,6 @@ X(x;\epsilon+\Delta \epsilon)&amp;=X(x^*;f(\epsilon^{-1},\epsilon+\Delta \epsilo
       </tags>
   </entry>
   <entry>
-    <title>clash的Docker部署</title>
-    <url>/posts/d16dfd6d/</url>
-    <content><![CDATA[<p>Clash for docker， 一个运行在docker上的代理客户端</p>
-<p><img src="https://user-images.githubusercontent.com/1166872/47954055-97e6cb80-dfc0-11e8-991f-230fd40481e5.png" /></p>
-<span id="more"></span>
-<h1 id="部署">部署</h1>
-<ol type="1">
-<li><p>下载对应 docker 镜像</p>
-<p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker pull dreamacro/clash-premium:latest</span><br></pre></td></tr></table></figure></p></li>
-<li><p>配置 config.yaml 文件</p>
-<p>其实直接把 <code>clash for windows</code> 的配置文件取出来就行，记得把 <code>HTTP Proxy Port</code> 和 <code>SOCKS5 Proxy Port</code> 删除，然后配置 <code>Mixed Port</code> 就行，另外把配置文件中 <code>external-controller</code> 的值改为 <code>0.0.0.0:9090</code>，然后 <code>cd</code> 到 <code>clash</code> 文件夹里面才 ok</p></li>
-<li><p>运行 docker</p>
-<p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker run -d --name=clash -v <span class="string">&quot;<span class="variable">$PWD</span>/config.yaml:/root/.config/clash/config.yaml&quot;</span> -p <span class="string">&quot;10808:10808&quot;</span> -p <span class="string">&quot;9090:9090&quot;</span> --restart=unless-stopped dreamacro/clash-premium</span><br></pre></td></tr></table></figure></p></li>
-<li><p>静态控制网页</p>
-<p><a href="http://yacd.haishan.me/">http://yacd.haishan.me/</a> 填入对应网址：9090</p></li>
-</ol>
-<h1 id="参考">参考</h1>
-<ol type="1">
-<li><a href="https://www.mokeyjay.com/archives/2787">使用 Docker 搭建图形化 Clash 服务端并添加订阅的操作流程解决方法</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>docker</tag>
-        <tag>服务器</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo使用教程</title>
     <url>/posts/b8d83faa/</url>
     <content><![CDATA[<h1 id="hexonext的安装">Hexo+Next的安装</h1>
@@ -410,9 +379,40 @@ a&amp;\cdot b=\sum_{i=1}^{n}a_ib_i
         <category>软件</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>MarkDown</tag>
+        <tag>教程</tag>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>clash的Docker部署</title>
+    <url>/posts/d16dfd6d/</url>
+    <content><![CDATA[<p>Clash for docker， 一个运行在docker上的代理客户端</p>
+<p><img src="https://user-images.githubusercontent.com/1166872/47954055-97e6cb80-dfc0-11e8-991f-230fd40481e5.png" /></p>
+<span id="more"></span>
+<h1 id="部署">部署</h1>
+<ol type="1">
+<li><p>下载对应 docker 镜像</p>
+<p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker pull dreamacro/clash-premium:latest</span><br></pre></td></tr></table></figure></p></li>
+<li><p>配置 config.yaml 文件</p>
+<p>其实直接把 <code>clash for windows</code> 的配置文件取出来就行，记得把 <code>HTTP Proxy Port</code> 和 <code>SOCKS5 Proxy Port</code> 删除，然后配置 <code>Mixed Port</code> 就行，另外把配置文件中 <code>external-controller</code> 的值改为 <code>0.0.0.0:9090</code>，然后 <code>cd</code> 到 <code>clash</code> 文件夹里面才 ok</p></li>
+<li><p>运行 docker</p>
+<p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker run -d --name=clash -v <span class="string">&quot;<span class="variable">$PWD</span>/config.yaml:/root/.config/clash/config.yaml&quot;</span> -p <span class="string">&quot;10808:10808&quot;</span> -p <span class="string">&quot;9090:9090&quot;</span> --restart=unless-stopped dreamacro/clash-premium</span><br></pre></td></tr></table></figure></p></li>
+<li><p>静态控制网页</p>
+<p><a href="http://yacd.haishan.me/">http://yacd.haishan.me/</a> 填入对应网址：9090</p></li>
+</ol>
+<h1 id="参考">参考</h1>
+<ol type="1">
+<li><a href="https://www.mokeyjay.com/archives/2787">使用 Docker 搭建图形化 Clash 服务端并添加订阅的操作流程解决方法</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>docker</tag>
+        <tag>服务器</tag>
       </tags>
   </entry>
 </search>

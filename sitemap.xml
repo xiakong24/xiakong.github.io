@@ -102,7 +102,21 @@
   </url>
   
   <url>
+    <loc>https://xiakong24.github.io/doc/tags/MarkDown/</loc>
+    <lastmod>2021-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiakong24.github.io/doc/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/hexo/</loc>
     <lastmod>2021-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -117,20 +131,6 @@
   
   <url>
     <loc>https://xiakong24.github.io/doc/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-06-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiakong24.github.io/doc/tags/MarkDown/</loc>
-    <lastmod>2021-06-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiakong24.github.io/doc/tags/hexo/</loc>
     <lastmod>2021-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
