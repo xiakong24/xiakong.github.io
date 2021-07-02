@@ -1,112 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/photo/photoslist.json</loc>
+    
+    <lastmod>2021-07-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/MyWiki/index.html</loc>
+    
+    <lastmod>2021-07-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/posts/d16dfd6d/</loc>
+    
+    <lastmod>2021-06-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/posts/b8d83faa/</loc>
+    
+    <lastmod>2021-06-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/photo/index.html</loc>
+    
+    <lastmod>2021-06-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/posts/40febe0c/</loc>
+    
+    <lastmod>2021-06-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/index.html</loc>
+    
+    <lastmod>2021-06-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/categories/index.html</loc>
+    
+    <lastmod>2021-06-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/entertainment/index.html</loc>
+    
+    <lastmod>2021-06-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/guestbook/index.html</loc>
+    
+    <lastmod>2021-06-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/index.html</loc>
+    
+    <lastmod>2021-06-28</lastmod>
+    
+  </url>
+  
 
+  <url>
+    <loc>https://xiakong24.github.io/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://xiakong24.github.io/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/guestbook/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/posts/d16dfd6d/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/categories/%E8%BD%AF%E4%BB%B6/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/posts/40febe0c/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/categories/%E6%95%B0%E5%AD%A6/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/posts/b8d83faa/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/archives/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/categories/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/tags/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/photo/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/tags/%E6%95%99%E7%A8%8B/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/tags/docker/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/tags/%E5%AD%A6%E4%B9%A0/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/tags/Lie%E7%BE%A4/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/tags/%E7%AC%94%E8%AE%B0/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/tags/MarkDown/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://xiakong24.github.io/doc/tags/hexo/</loc>
-  <lastmod>2021-06-30T03:49:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/Lie%E7%BE%A4/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/docker/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/MarkDown/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/tags/hexo/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
-
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/categories/%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiakong24.github.io/doc/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 </urlset>
